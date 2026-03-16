@@ -4,13 +4,13 @@
  let flag=document.querySelector('.indian-flag');
  if(languageBox.value==="En")
  {
-    flag.src="../pictures/usa-flag.png";
+    flag.src="pictures/usa-flag.png";
  }
  else if(languageBox.value==="Chi")
  {
-    flag.src="../pictures/china-flag.png";
+    flag.src="pictures/china-flag.png";
  }
  else{
-    flag.src="../pictures/indian-flag.png";
+    flag.src="pictures/indian-flag.png";
  }
 }
