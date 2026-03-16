@@ -20,7 +20,7 @@ let productContainer=document.querySelector('.product-container');
                      <i class="fa-solid fa-indian-rupee-sign"></i> -<span class="product-price-text">${product.price}</span>
                 </p>
                <div class="rating-review-container">
-                <img class="rating-image" src="../ratings/rating-${Math.round(product.rating)*10}.png"><span class="reviews-text"> (${product.reviews}) </span>
+                <img class="rating-image" src="ratings/rating-${Math.round(product.rating)*10}.png"><span class="reviews-text"> (${product.reviews}) </span>
                 </div>
                  <button class="add-to-cart-button js-add-to-cart"
                  data-id="${product.id}">Add-To-Cart </button>
@@ -30,7 +30,7 @@ let productContainer=document.querySelector('.product-container');
 
     let flagContainer=document.querySelector('.language-block');
      flagContainer.innerHTML=
-    `<img  class="indian-flag" src="../pictures/indian-flag.png">
+    `<img  class="indian-flag" src="pictures/indian-flag.png">
               <select name="country" class="language-box">
                 <option value="Inr">
                     Inr
