@@ -140,6 +140,7 @@
         min-width:0px;
        display:flex;
        flex:1 1 auto;
+      max-width:150px;
     }
   .product-image-container {
     height: auto;
